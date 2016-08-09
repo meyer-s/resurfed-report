@@ -1,89 +1,67 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
+<style>
+#results {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x:auto;
+}
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="Content-Style-Type" content="text/css">
-    <title></title>
-    <meta name="Generator" content="Cocoa HTML Writer">
-    <meta name="CocoaVersion" content="1404.47">
-    <style type="text/css">
-        p.p1 {
-            margin: 0.0px 0.0px 0.0px 0.0px;
-            font: 12.0px Helvetica
-        }
-        
-        p.p2 {
-            margin: 0.0px 0.0px 0.0px 0.0px;
-            font: 12.0px Helvetica;
-            min-height: 14.0px
-        }
-        
-        span.Apple-tab-span {
-            white-space: pre
-        }
-    </style>
-</head>
+#results td, #results th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
 
-<body>
-    <p class="p1">&lt;html&gt;&lt;head&gt;&lt;style&gt;</p>
-    <p class="p2"><span class="Apple-converted-space">  </span></p>
-    <p class="p1">#results {</p>
-    <p class="p1"><span class="Apple-converted-space">    </span>font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;</p>
-    <p class="p1"><span class="Apple-converted-space">    </span>border-collapse: collapse;</p>
-    <p class="p1"><span class="Apple-converted-space">    </span>width: 100%;</p>
-    <p class="p1"><span class="Apple-converted-space">    </span>overflow-x:auto;</p>
-    <p class="p1">}</p>
-    <p class="p2"><br></p>
-    <p class="p1">#results td, #results th {</p>
-    <p class="p1"><span class="Apple-converted-space">    </span>border: 1px solid #ddd;</p>
-    <p class="p1"><span class="Apple-converted-space">    </span>padding: 8px;</p>
-    <p class="p1">}</p>
-    <p class="p2"><br></p>
-    <p class="p1">#results tr:nth-child(even){background-color: #f2f2f2;}</p>
-    <p class="p2"><br></p>
-    <p class="p1">#results tr:hover {background-color: #ddd;}</p>
-    <p class="p2"><br></p>
-    <p class="p1">#results th {</p>
-    <p class="p1"><span class="Apple-converted-space">    </span>padding-top: 12px;</p>
-    <p class="p1"><span class="Apple-converted-space">    </span>padding-bottom: 12px;</p>
-    <p class="p1"><span class="Apple-converted-space">    </span>text-align: left;</p>
-    <p class="p1"><span class="Apple-converted-space">    </span>background-color: #00ccff;</p>
-    <p class="p1"><span class="Apple-converted-space">    </span>color: white;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span>opacity:75%;</p>
-    <p class="p1">}</p>
-    <p class="p1">&lt;/style&gt;</p>
-    <p class="p1">&lt;/head&gt;&lt;body&gt;&lt;table id="results" class="data" border="0" cellspacing="5"&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span>&lt;tbody&gt;&lt;tr&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span>&lt;th class="id"&gt;ID&lt;/th&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span>&lt;th class="steamID"&gt;Steam ID&lt;/th&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span>&lt;th class="reportedName"&gt;Reported Name&lt;/th&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span>&lt;th class="comments"&gt;Comments&lt;/th&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span>&lt;th class="reporterName"&gt;Reporter Name&lt;/th&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span>&lt;th class="server"&gt;Server&lt;/th&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span>&lt;th class="Map"&gt;Map&lt;/th&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span>&lt;th class="time"&gt;Time&lt;/th&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span>&lt;/tr&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;tr&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="id"&gt;15&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="steamID"&gt;test&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="reportedName"&gt;another&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="comments"&gt;hey&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="reporterName"&gt;its me&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="server"&gt;easy&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="map"&gt;surf_mom&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="time"&gt;2016-08-03 00:15:51&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;/tr&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;tr&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="id"&gt;16&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="steamID"&gt;Steam_ID:00000&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="reportedName"&gt;Random Joe&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="comments"&gt;Abusive chat, blah blah&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="reporterName"&gt;Joe Smoe&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="server"&gt;Resurfed Easy&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="map"&gt;surf_crazyfrog&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;td class="time"&gt;2016-08-03 00:26:15&lt;/td&gt;</p>
-    <p class="p1"><span class="Apple-tab-span"> </span><span class="Apple-tab-span">  </span><span class="Apple-tab-span">  </span>&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;</p>
+#results tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#results tr:hover {
+    background-color: #ddd;
+}
+
+#results th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #00ccff;
+    color: white;
+}
+</style>
+    <body><table id="results" class="data" border="0" cellspacing="5">
+    <tbody>
+    <tr>
+        <th class="id">ID</th>
+        <th class="steamID">Steam ID</th>
+        <th class="reportedName">Reported Name</th>
+        <th class="comments">Comments</th>
+        <th class="reporterName">Reporter Name</th>
+        <th class="server">Server</th>
+        <th class="Map">Map</th>
+        <th class="time">Time</th>
+    </tr>
+    <tr>
+        <td class="id">15</td>
+        <td class="steamID">test</td>
+        <td class="reportedName">another</td>
+        <td class="comments">hey</td>
+        <td class="reporterName">its me</td>
+        <td class="server">easy</td>
+        <td class="map">surf_mom</td>
+        <td class="time">2016-08-03 00:15:51</td>
+    </tr>
+    <tr>
+        <td class="id">16</td>
+        <td class="steamID">Steam_ID:00000</td>
+        <td class="reportedName">Random Joe</td>
+        <td class="comments">Abusive chat, blah blah</td>
+        <td class="reporterName">Joe Smoe</td>
+        <td class="server">Resurfed Easy</td>
+        <td class="map">surf_crazyfrog</td>
+        <td class="time">2016-08-03 00:26:15</td>
+    </tr>
+    </tbody>
+</table>
 </body>
-
 </html>
